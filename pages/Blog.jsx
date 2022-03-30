@@ -5,19 +5,19 @@ const Header = dynamic(
   },
   { ssr: false }
 );
-import Blog1Container from '../containers/Blog1';
+import Blog2Container from '../containers/Blog';
 import Footer from '../layouts/Footer';
 
-const Blog1 = () => {
+const Blog = () => {
 
   return (
     <>
-		<Header Title='Blog1' />
-		<Blog1Container />
+		<Header Title='Blog' />
+		<Blog2Container />
 		<Footer />
     </>
   );
 }
 
-export default Blog1;
+export default Blog;
 

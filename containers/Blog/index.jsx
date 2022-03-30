@@ -25,7 +25,9 @@ const Blog2Container = () => {
 							    <nav>
 							      <ul className="pagination justify-content-center">
 							    	{Array(7).fill().map((_i , key) => (
-							    		<li key={key} className="page-item"><a className="page-link" href="#">{key + 1}</a></li>
+							    		<li key={key} className="page-item">
+											<a className="page-link" href="#">{key + 1}</a>
+										</li>
 							    	))}
 							      </ul>
 							    </nav>

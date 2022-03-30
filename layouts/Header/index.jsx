@@ -50,7 +50,14 @@ function Header({Title}){
                                 </a>
                             </Link>
                         </li>
-                        <li className="nav-item dropdown">
+                        <li className="nav-item">
+                            <Link href="/Discover">
+                                <a className="nav-link">
+                                Discover
+                                </a>
+                            </Link>
+                        </li>
+                        {/* <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Discover</a>
                             <div className="dropdown-menu">
                                 {data[0].dataUp && data[0].dataUp.map((item , i) => (
@@ -61,7 +68,7 @@ function Header({Title}){
                                     </Link>
                                 ))}
                             </div>
-                        </li>
+                        </li> */}
                         <li className="nav-item">
                             <Link href="/Activity">
                                 <a className="nav-link">
@@ -69,7 +76,14 @@ function Header({Title}){
                                 </a>
                             </Link>
                         </li>
-                        <li className="nav-item dropdown">
+                        <li className="nav-item">
+                            <Link href="/Blog">
+                                <a className="nav-link">
+                                Community
+                                </a>
+                            </Link>
+                        </li>
+                        {/* <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Community</a>
                             <div className="dropdown-menu">
                                 {data[2].CommunityData && data[2].CommunityData.map((item , i) => (
@@ -80,7 +94,7 @@ function Header({Title}){
                                     </Link>
                                 ))}
                             </div>
-                        </li>
+                        </li> */}
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#"  data-toggle="dropdown">Pages</a>
                             <div className="dropdown-menu">
