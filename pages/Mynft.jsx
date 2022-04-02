@@ -5,20 +5,18 @@ const Header = dynamic(
   },
   { ssr: false }
 );
-import ContactContainer from '../containers/Contact';
+import DiscoverContainer from '../containers/Discover';
 import Footer from '../layouts/Footer';
 
-const Contact = () => {
-
+const Mynft = () => {
 
   return (
-	<>
-		<Header Title='Contact Us' />
-		<ContactContainer />
-		<Footer />
-	</>
+    <>
+      <Header Title='MyNFT' />
+      <DiscoverContainer />
+      <Footer />
+    </>
   );
 }
 
-export default Contact;
-
+export default Mynft;

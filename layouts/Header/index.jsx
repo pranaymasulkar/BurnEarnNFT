@@ -57,63 +57,34 @@ function Header({Title}){
                                 </a>
                             </Link>
                         </li>
-                        {/* <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Discover</a>
-                            <div className="dropdown-menu">
-                                {data[0].dataUp && data[0].dataUp.map((item , i) => (
-                                    <Link key={i} href={item.path}>
-                                        <a className="dropdown-item">
-                                            {item.title}
-                                        </a>
-                                    </Link>
-                                ))}
-                            </div>
+                        <li className="nav-item">
+                            <Link href="/CreateItem">
+                                <a className="nav-link">
+                                Create Item
+                                </a>
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link href="/Mynft">
+                                <a className="nav-link">
+                                MyNFT
+                                </a>
+                            </Link>
+                        </li>
+                        {/* <li className="nav-item">
+                            <Link href="/Auctions">
+                                <a className="nav-link">
+                                Auctions
+                                </a>
+                            </Link>
                         </li> */}
-                        <li className="nav-item">
-                            <Link href="/Activity">
+                        {/* <li className="nav-item">
+                            <Link href="/ConnectWallet">
                                 <a className="nav-link">
-                                    Activity
+                                Connect Wallet
                                 </a>
                             </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link href="/Blog">
-                                <a className="nav-link">
-                                Community
-                                </a>
-                            </Link>
-                        </li>
-                        {/* <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Community</a>
-                            <div className="dropdown-menu">
-                                {data[2].CommunityData && data[2].CommunityData.map((item , i) => (
-                                    <Link key={i} href={item.path}>
-                                        <a className="dropdown-item">
-                                            {item.title}
-                                        </a>
-                                    </Link>
-                                ))}
-                            </div>
                         </li> */}
-                        <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle" href="#"  data-toggle="dropdown">Pages</a>
-                            <div className="dropdown-menu">
-                                {data[1].dataDown && data[1].dataDown.map((item , i) => (
-                                    <Link key={i} href={item.path}>
-                                        <a className="dropdown-item">
-                                            {item.title}
-                                        </a>
-                                    </Link>
-                                ))}
-                            </div>
-                        </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" href="/ContactUS">
-                                <a className="nav-link">
-                                    Contact
-                                </a>
-                            </Link>
-                        </li>
                         <li className="lh-55px"><Link href="/ConnectWallet">
                             <a className="btn login-btn ml-50">
                                 Connect Wallet

@@ -1,6 +1,5 @@
 import dynamic from "next/dynamic";
 import HeroContainer from '../components/Hero'
-import TopSellers from '../components/TopSellers'
 import TopCollections from '../components/TopCollections'
 import ListedItems from '../components/ListedItems'
 import LiveAuctions from '../components/LiveAuctions'
@@ -31,7 +30,6 @@ const Home = () => {
         linkDown="Collect NFT"
       />
       <TopCollections />
-      <TopSellers />
       <ListedItems />
       <LiveAuctions />
       <Footer />
